@@ -19,7 +19,7 @@ if day == 0:
         connection.login(user=my_email, password=password)
         connection.sendmail(
             from_addr=keys.my_email_gmail,
-            to_addrs="testowyemail885@gmail.com",
+            to_addrs=keys.test_email_2
             msg=f"Subject: Hello\n\n{random_quote}"
         )
 else:
